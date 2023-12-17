@@ -1,0 +1,68 @@
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    position: absolute;
+    inset: 10svh 20svw;
+}
+
+.racButton {
+    width: 15rem;
+    height: 15rem;
+    border: 2px solid #1e1e2e;
+    border-radius: 10px;
+}
+
+.rac1 {
+    background: #f38ba8;
+}
+
+.rac2 {
+    background: #fab387;
+}
+
+.rac3 {
+    background: #f9e2af;
+}
+
+.rac4 {
+    background: #a6e3a1;
+}
+
+.rac5 {
+    background: #94e2d5;
+}
+
+.rac6 {
+    background: #89dceb;
+}
+
+.rac7 {
+    background: #74c7ec;
+}
+
+.rac8 {
+    background: #89b4fa;
+}
+
+.rac9 {
+    background: #b4befe;
+}
+
+.loseButton {
+    background-image: url("img/racoonAngry.jpg");
+    background-size: cover;
+}
+
+.winButton {
+    background-image: url("img/racoonKind.jpeg");
+    background-size: cover;
+}
+
+.modal {
+    max-width: 50ch;
+}
+  
+.modal::backdrop {
+    background: rgb(0 0 0 / 0.4);
+}
